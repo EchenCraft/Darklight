@@ -1,0 +1,256 @@
+0: Ocean(net.minecraft.world.biome.BiomeOcean)
+1: Plains(net.minecraft.world.biome.BiomePlains)
+2: Desert(net.minecraft.world.biome.BiomeDesert)
+3: Extreme Hills(net.minecraft.world.biome.BiomeHills)
+4: Forest(net.minecraft.world.biome.BiomeForest)
+5: Taiga(net.minecraft.world.biome.BiomeTaiga)
+6: Swampland(net.minecraft.world.biome.BiomeSwamp)
+7: River(net.minecraft.world.biome.BiomeRiver)
+8: Hell(net.minecraft.world.biome.BiomeHell)
+9: The End(net.minecraft.world.biome.BiomeEnd)
+10: FrozenOcean(net.minecraft.world.biome.BiomeOcean)
+11: FrozenRiver(net.minecraft.world.biome.BiomeRiver)
+12: Ice Plains(net.minecraft.world.biome.BiomeSnow)
+13: Ice Mountains(net.minecraft.world.biome.BiomeSnow)
+14: MushroomIsland(net.minecraft.world.biome.BiomeMushroomIsland)
+15: MushroomIslandShore(net.minecraft.world.biome.BiomeMushroomIsland)
+16: Beach(net.minecraft.world.biome.BiomeBeach)
+17: DesertHills(net.minecraft.world.biome.BiomeDesert)
+18: ForestHills(net.minecraft.world.biome.BiomeForest)
+19: TaigaHills(net.minecraft.world.biome.BiomeTaiga)
+20: Extreme Hills Edge(net.minecraft.world.biome.BiomeHills)
+21: Jungle(net.minecraft.world.biome.BiomeJungle)
+22: JungleHills(net.minecraft.world.biome.BiomeJungle)
+23: JungleEdge(net.minecraft.world.biome.BiomeJungle)
+24: Deep Ocean(net.minecraft.world.biome.BiomeOcean)
+25: Stone Beach(net.minecraft.world.biome.BiomeStoneBeach)
+26: Cold Beach(net.minecraft.world.biome.BiomeBeach)
+27: Birch Forest(net.minecraft.world.biome.BiomeForest)
+28: Birch Forest Hills(net.minecraft.world.biome.BiomeForest)
+29: Roofed Forest(net.minecraft.world.biome.BiomeForest)
+30: Cold Taiga(net.minecraft.world.biome.BiomeTaiga)
+31: Cold Taiga Hills(net.minecraft.world.biome.BiomeTaiga)
+32: Mega Taiga(net.minecraft.world.biome.BiomeTaiga)
+33: Mega Taiga Hills(net.minecraft.world.biome.BiomeTaiga)
+34: Extreme Hills+(net.minecraft.world.biome.BiomeHills)
+35: Savanna(net.minecraft.world.biome.BiomeSavanna)
+36: Savanna Plateau(net.minecraft.world.biome.BiomeSavanna)
+37: Mesa(net.minecraft.world.biome.BiomeMesa)
+38: Mesa Plateau F(net.minecraft.world.biome.BiomeMesa)
+39: Mesa Plateau(net.minecraft.world.biome.BiomeMesa)
+40: Gravel Beach(biomesoplenty.common.biome.overworld.BiomeGenGravelBeach)
+41: Alps(biomesoplenty.common.biome.overworld.BiomeGenAlps)
+42: Bamboo Forest(biomesoplenty.common.biome.overworld.BiomeGenBambooForest)
+43: Bayou(biomesoplenty.common.biome.overworld.BiomeGenBayou)
+44: Bog(biomesoplenty.common.biome.overworld.BiomeGenBog)
+45: Boreal Forest(biomesoplenty.common.biome.overworld.BiomeGenBorealForest)
+46: Brushland(biomesoplenty.common.biome.overworld.BiomeGenBrushland)
+47: Chaparral(biomesoplenty.common.biome.overworld.BiomeGenChaparral)
+48: Cherry Blossom Grove(biomesoplenty.common.biome.overworld.BiomeGenCherryBlossomGrove)
+49: Cold Desert(biomesoplenty.common.biome.overworld.BiomeGenColdDesert)
+50: Coniferous Forest(biomesoplenty.common.biome.overworld.BiomeGenConiferousForest)
+51: Crag(biomesoplenty.common.biome.overworld.BiomeGenCrag)
+52: Dead Forest(biomesoplenty.common.biome.overworld.BiomeGenDeadForest)
+53: Dead Swamp(biomesoplenty.common.biome.overworld.BiomeGenDeadSwamp)
+54: Eucalyptus Forest(biomesoplenty.common.biome.overworld.BiomeGenEucalyptusForest)
+55: Fen(biomesoplenty.common.biome.overworld.BiomeGenFen)
+56: Flower Field(biomesoplenty.common.biome.overworld.BiomeGenFlowerField)
+57: Grassland(biomesoplenty.common.biome.overworld.BiomeGenGrassland)
+58: Grove(biomesoplenty.common.biome.overworld.BiomeGenGrove)
+59: Heathland(biomesoplenty.common.biome.overworld.BiomeGenHeathland)
+60: Highland(biomesoplenty.common.biome.overworld.BiomeGenHighland)
+61: Land of Lakes(biomesoplenty.common.biome.overworld.BiomeGenLandOfLakes)
+62: Lavender Fields(biomesoplenty.common.biome.overworld.BiomeGenLavenderFields)
+63: Lush Desert(biomesoplenty.common.biome.overworld.BiomeGenLushDesert)
+64: Lush Swamp(biomesoplenty.common.biome.overworld.BiomeGenLushSwamp)
+65: Maple Woods(biomesoplenty.common.biome.overworld.BiomeGenMapleWoods)
+66: Marsh(biomesoplenty.common.biome.overworld.BiomeGenMarsh)
+67: Meadow(biomesoplenty.common.biome.overworld.BiomeGenMeadow)
+68: Moor(biomesoplenty.common.biome.overworld.BiomeGenMoor)
+69: Mountain Peaks(biomesoplenty.common.biome.overworld.BiomeGenMountain)
+70: Mystic Grove(biomesoplenty.common.biome.overworld.BiomeGenMysticGrove)
+71: Ominous Woods(biomesoplenty.common.biome.overworld.BiomeGenOminousWoods)
+72: Orchard(biomesoplenty.common.biome.overworld.BiomeGenOrchard)
+73: Outback(biomesoplenty.common.biome.overworld.BiomeGenOutback)
+74: Overgrown Cliffs(biomesoplenty.common.biome.overworld.BiomeGenOvergrownCliffs)
+75: Prairie(biomesoplenty.common.biome.overworld.BiomeGenPrairie)
+76: Quagmire(biomesoplenty.common.biome.overworld.BiomeGenQuagmire)
+77: Rainforest(biomesoplenty.common.biome.overworld.BiomeGenRainforest)
+78: Redwood Forest(biomesoplenty.common.biome.overworld.BiomeGenRedwoodForest)
+79: Sacred Springs(biomesoplenty.common.biome.overworld.BiomeGenSacredSprings)
+80: Seasonal Forest(biomesoplenty.common.biome.overworld.BiomeGenSeasonalForest)
+81: Shield(biomesoplenty.common.biome.overworld.BiomeGenShield)
+82: Shrubland(biomesoplenty.common.biome.overworld.BiomeGenShrubland)
+83: Snowy Coniferous Forest(biomesoplenty.common.biome.overworld.BiomeGenSnowyConiferousForest)
+84: Snowy Forest(biomesoplenty.common.biome.overworld.BiomeGenSnowyForest)
+85: Steppe(biomesoplenty.common.biome.overworld.BiomeGenSteppe)
+86: Temperate Rainforest(biomesoplenty.common.biome.overworld.BiomeGenTemperateRainforest)
+87: Tropical Rainforest(biomesoplenty.common.biome.overworld.BiomeGenTropicalRainforest)
+88: Tundra(biomesoplenty.common.biome.overworld.BiomeGenTundra)
+89: Wasteland(biomesoplenty.common.biome.overworld.BiomeGenWasteland)
+90: Wetland(biomesoplenty.common.biome.overworld.BiomeGenWetland)
+91: Woodland(biomesoplenty.common.biome.overworld.BiomeGenWoodland)
+92: Xeric Shrubland(biomesoplenty.common.biome.overworld.BiomeGenXericShrubland)
+93: Mountain Foothills(biomesoplenty.common.biome.overworld.BiomeGenMountain)
+94: Glacier(biomesoplenty.common.biome.overworld.BiomeGenGlacier)
+95: Oasis(biomesoplenty.common.biome.overworld.BiomeGenOasis)
+96: Coral Reef(biomesoplenty.common.biome.overworld.BiomeGenCoralReef)
+97: Kelp Forest(biomesoplenty.common.biome.overworld.BiomeGenKelpForest)
+98: Mangrove(biomesoplenty.common.biome.overworld.BiomeGenMangrove)
+99: Origin Island(biomesoplenty.common.biome.overworld.BiomeGenOriginIsland)
+100: Tropical Island(biomesoplenty.common.biome.overworld.BiomeGenTropicalIsland)
+101: Volcanic Island(biomesoplenty.common.biome.overworld.BiomeGenVolcanicIsland)
+102: Flower Island(biomesoplenty.common.biome.overworld.BiomeGenFlowerIsland)
+103: patchy_islands(thebetweenlands.common.world.biome.BiomePatchyIslands)
+104: swamplands(thebetweenlands.common.world.biome.BiomeSwamplands)
+105: deep_waters(thebetweenlands.common.world.biome.BiomeDeepWaters)
+106: coarse_islands(thebetweenlands.common.world.biome.BiomeCoarseIslands)
+107: sludge_plains(thebetweenlands.common.world.biome.BiomeSludgePlains)
+108: marsh_0(thebetweenlands.common.world.biome.BiomeMarsh)
+109: marsh_1(thebetweenlands.common.world.biome.BiomeMarsh)
+110: White Sands(com.globbypotato.rockhounding_surface.world.BiomeWhiteSands)
+111: Autumn Forest(net.minecraft.world.biome.BiomeForest)
+112: Autumn Hills(net.minecraft.world.biome.BiomeForest)
+113: Aether Highlands(com.legacy.aether.common.world.biome.AetherBiome)
+114: , WitchwoodForest(am2.world.BiomeWitchwoodForest)
+115: 
+116: 
+117: 
+118: 
+119: 
+120: 
+121: 
+122: 
+123: 
+124: 
+125: 
+126: 
+127: The Void(net.minecraft.world.biome.BiomeVoid)
+128: 
+129: Sunflower Plains(net.minecraft.world.biome.BiomePlains)
+130: Desert M(net.minecraft.world.biome.BiomeDesert)
+131: Extreme Hills M(net.minecraft.world.biome.BiomeHills)
+132: Flower Forest(net.minecraft.world.biome.BiomeForest)
+133: Taiga M(net.minecraft.world.biome.BiomeTaiga)
+134: Swampland M(net.minecraft.world.biome.BiomeSwamp)
+135: 
+136: 
+137: 
+138: 
+139: 
+140: Ice Plains Spikes(net.minecraft.world.biome.BiomeSnow)
+141: 
+142: 
+143: 
+144: 
+145: 
+146: 
+147: 
+148: 
+149: Jungle M(net.minecraft.world.biome.BiomeJungle)
+150: 
+151: JungleEdge M(net.minecraft.world.biome.BiomeJungle)
+152: 
+153: 
+154: 
+155: Birch Forest M(net.minecraft.world.biome.BiomeForest)
+156: Birch Forest Hills M(net.minecraft.world.biome.BiomeForest)
+157: Roofed Forest M(net.minecraft.world.biome.BiomeForest)
+158: Cold Taiga M(net.minecraft.world.biome.BiomeTaiga)
+159: 
+160: Mega Spruce Taiga(net.minecraft.world.biome.BiomeTaiga)
+161: Redwood Taiga Hills M(net.minecraft.world.biome.BiomeTaiga)
+162: Extreme Hills+ M(net.minecraft.world.biome.BiomeHills)
+163: Savanna M(net.minecraft.world.biome.BiomeSavanna)
+164: Savanna Plateau M(net.minecraft.world.biome.BiomeSavanna)
+165: Mesa (Bryce)(net.minecraft.world.biome.BiomeMesa)
+166: Mesa Plateau F M(net.minecraft.world.biome.BiomeMesa)
+167: Mesa Plateau M(net.minecraft.world.biome.BiomeMesa)
+168: 
+169: 
+170: 
+171: 
+172: 
+173: 
+174: 
+175: 
+176: 
+177: 
+178: 
+179: 
+180: 
+181: 
+182: 
+183: 
+184: 
+185: 
+186: 
+187: 
+188: 
+189: 
+190: 
+191: 
+192: 
+193: 
+194: 
+195: 
+196: 
+197: 
+198: 
+199: 
+200: 
+201: 
+202: 
+203: 
+204: 
+205: 
+206: 
+207: 
+208: 
+209: 
+210: 
+211: 
+212: 
+213: 
+214: 
+215: 
+216: 
+217: 
+218: 
+219: 
+220: 
+221: 
+222: 
+223: 
+224: 
+225: 
+226: 
+227: 
+228: 
+229: 
+230: 
+231: 
+232: 
+233: 
+234: 
+235: 
+236: 
+237: 
+238: 
+239: 
+240: 
+241: 
+242: 
+243: 
+244: 
+245: 
+246: 
+247: 
+248: 
+249: 
+250: 
+251: 
+252: 
+253: 
+254: 
+255: 

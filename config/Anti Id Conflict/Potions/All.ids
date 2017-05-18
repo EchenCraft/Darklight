@@ -1,0 +1,256 @@
+0: arsmagica2:agility(am2.defs.AMPotion)
+1: effect.moveSpeed(net.minecraft.potion.Potion)
+2: effect.moveSlowdown(net.minecraft.potion.Potion)
+3: effect.digSpeed(net.minecraft.potion.Potion)
+4: effect.digSlowDown(net.minecraft.potion.Potion)
+5: effect.damageBoost(net.minecraft.potion.PotionAttackDamage)
+6: effect.heal(net.minecraft.potion.PotionHealth)
+7: effect.harm(net.minecraft.potion.PotionHealth)
+8: effect.jump(net.minecraft.potion.Potion)
+9: effect.confusion(net.minecraft.potion.Potion)
+10: effect.regeneration(net.minecraft.potion.Potion)
+11: effect.resistance(net.minecraft.potion.Potion)
+12: effect.fireResistance(net.minecraft.potion.Potion)
+13: effect.waterBreathing(net.minecraft.potion.Potion)
+14: effect.invisibility(net.minecraft.potion.Potion)
+15: effect.blindness(net.minecraft.potion.Potion)
+16: effect.nightVision(net.minecraft.potion.Potion)
+17: effect.hunger(net.minecraft.potion.Potion)
+18: effect.weakness(net.minecraft.potion.PotionAttackDamage)
+19: effect.poison(net.minecraft.potion.Potion)
+20: effect.wither(net.minecraft.potion.Potion)
+21: effect.healthBoost(net.minecraft.potion.PotionHealthBoost)
+22: effect.absorption(net.minecraft.potion.PotionAbsorption)
+23: effect.saturation(net.minecraft.potion.PotionHealth)
+24: effect.glowing(net.minecraft.potion.Potion)
+25: effect.levitation(net.minecraft.potion.Potion)
+26: effect.luck(net.minecraft.potion.Potion)
+27: effect.unluck(net.minecraft.potion.Potion)
+28: arsmagica2:astral_distortion(am2.defs.AMPotion)
+29: arsmagica2:burnout_reduction(am2.defs.AMPotion)
+30: arsmagica2:charme(am2.defs.AMPotion)
+31: arsmagica2:clarity(am2.defs.AMPotion)
+32: arsmagica2:entangle(am2.defs.AMPotion)
+33: arsmagica2:flight(am2.defs.AMPotion)
+34: arsmagica2:frost_slow(am2.defs.AMPotion)
+35: arsmagica2:fury(am2.defs.AMPotion)
+36: arsmagica2:gravity_well(am2.defs.AMPotion)
+37: arsmagica2:haste(am2.defs.AMPotion)
+38: arsmagica2:illumination(am2.defs.AMPotion)
+39: arsmagica2:instant_mana(am2.defs.AMPotion)
+40: arsmagica2:leap(am2.defs.AMPotion)
+41: arsmagica2:levitation(am2.defs.AMPotion)
+42: arsmagica2:magic_shield(am2.defs.AMPotion)
+43: arsmagica2:mana_regen(am2.defs.AMPotion)
+44: arsmagica2:regeneration(am2.defs.AMPotion)
+45: arsmagica2:scramble_synapses(am2.defs.AMPotion)
+46: arsmagica2:shield(am2.defs.AMPotion)
+47: arsmagica2:shrink(am2.defs.AMPotion)
+48: arsmagica2:silence(am2.defs.AMPotion)
+49: arsmagica2:slowfall(am2.defs.AMPotion)
+50: arsmagica2:spell_reflect(am2.defs.AMPotion)
+51: arsmagica2:swift_swim(am2.defs.AMPotion)
+52: arsmagica2:temporal_anchor(am2.defs.AMPotion)
+53: arsmagica2:true_sight(am2.defs.AMPotion)
+54: arsmagica2:water_breathing(am2.defs.AMPotion)
+55: arsmagica2:watery_grave(am2.defs.AMPotion)
+56: arsmagica2:mana_boost(am2.defs.AMPotion)
+57: quark.potion.curse.name(vazkii.quark.base.potion.PotionMod)
+58: potion.paralysis(biomesoplenty.common.potion.PotionParalysis)
+59: potion.possession(biomesoplenty.common.potion.PotionPossession)
+60: botania.potion.soulCross(vazkii.botania.common.brew.potion.PotionSoulCross)
+61: botania.potion.featherFeet(vazkii.botania.common.brew.potion.PotionFeatherfeet)
+62: botania.potion.emptiness(vazkii.botania.common.brew.potion.PotionEmptiness)
+63: botania.potion.bloodthirst(vazkii.botania.common.brew.potion.PotionBloodthirst)
+64: botania.potion.allure(vazkii.botania.common.brew.potion.PotionAllure)
+65: botania.potion.clear(vazkii.botania.common.brew.potion.PotionClear)
+66: EnderZoo.floatingPotion(crazypants.enderzoo.potion.FloatingPotion)
+67: potion.enderference(slimeknights.tconstruct.library.potion.TinkerPotion)
+68: potion.insatiable(slimeknights.tconstruct.library.potion.TinkerPotion)
+69: potion.magnetic(slimeknights.tconstruct.tools.traits.TraitMagnetic$MagneticPotion)
+70: potion.momentum(slimeknights.tconstruct.library.potion.TinkerPotion)
+71: potion.dot(slimeknights.tconstruct.tools.traits.TraitSharp$DoT)
+72: potion.splinter(slimeknights.tconstruct.library.potion.TinkerPotion)
+73: flight(xreliquary.util.potions.PotionFlight)
+74: potion.hypothermia(toughasnails.potion.PotionHypothermia)
+75: potion.hyperthermia(toughasnails.potion.PotionHyperthermia)
+76: potion.thirst(toughasnails.potion.PotionThirst)
+77: potion.cold_resistance(toughasnails.potion.PotionColdResistance)
+78: potion.heat_resistance(toughasnails.potion.PotionHeatResistance)
+79: , immersiveengineering.potion.flammable(blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+80: , immersiveengineering.potion.slippery(blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+81: , immersiveengineering.potion.conductive(blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+82: , immersiveengineering.potion.sticky(blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+83: , immersiveengineering.potion.stunned(blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+84: , immersiveengineering.potion.concreteFeet(blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+85: , effect.xu2.doom(com.rwtema.extrautils2.potion.PotionDoom)
+86: , effect.xu2.gravity(com.rwtema.extrautils2.potion.PotionGravity)
+87: , effect.xu2.second.chance(com.rwtema.extrautils2.potion.PotionSecondChance)
+88: , effect.xu2.greek.fire(com.rwtema.extrautils2.potion.PotionNapalm)
+89: , effect.xu2.fizzy.lifting(com.rwtema.extrautils2.potion.PotionFizzyLifting)
+90: , effect.xu2.relapse(com.rwtema.extrautils2.potion.PotionRelapse)
+91: , effect.xu2.love(com.rwtema.extrautils2.potion.PotionLove)
+92: 
+93: 
+94: 
+95: 
+96: 
+97: 
+98: 
+99: 
+100: 
+101: 
+102: 
+103: 
+104: 
+105: 
+106: 
+107: 
+108: 
+109: 
+110: 
+111: 
+112: 
+113: 
+114: 
+115: 
+116: 
+117: 
+118: 
+119: 
+120: 
+121: 
+122: 
+123: 
+124: 
+125: 
+126: 
+127: 
+128: 
+129: 
+130: 
+131: 
+132: 
+133: 
+134: 
+135: 
+136: 
+137: 
+138: 
+139: 
+140: 
+141: 
+142: 
+143: 
+144: 
+145: 
+146: 
+147: 
+148: 
+149: 
+150: 
+151: 
+152: 
+153: 
+154: 
+155: 
+156: 
+157: 
+158: 
+159: 
+160: 
+161: 
+162: 
+163: 
+164: 
+165: 
+166: 
+167: 
+168: 
+169: 
+170: 
+171: 
+172: 
+173: 
+174: 
+175: 
+176: 
+177: 
+178: 
+179: 
+180: 
+181: 
+182: 
+183: 
+184: 
+185: 
+186: 
+187: 
+188: 
+189: 
+190: 
+191: 
+192: 
+193: 
+194: 
+195: 
+196: 
+197: 
+198: 
+199: 
+200: 
+201: 
+202: 
+203: 
+204: 
+205: 
+206: 
+207: 
+208: 
+209: 
+210: 
+211: 
+212: 
+213: 
+214: 
+215: 
+216: 
+217: 
+218: 
+219: 
+220: 
+221: 
+222: 
+223: 
+224: 
+225: 
+226: 
+227: 
+228: 
+229: 
+230: 
+231: 
+232: 
+233: 
+234: 
+235: 
+236: 
+237: 
+238: 
+239: 
+240: 
+241: 
+242: 
+243: 
+244: 
+245: 
+246: 
+247: 
+248: 
+249: 
+250: 
+251: 
+252: 
+253: 
+254: 
+255: 
