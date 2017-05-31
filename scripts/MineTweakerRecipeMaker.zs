@@ -21,10 +21,6 @@ recipes.removeShapeless(<minecraft:wool>, [<ore:string>, <ore:string>, <ore:stri
 //#MARKER REMOVE SHAPED
 recipes.removeShaped(<minecraft:carpet> * 3, [[<minecraft:wool>, <minecraft:wool>]]);
 recipes.removeShaped(<sleepingbag:sleepingbag>, [[<minecraft:carpet>, <minecraft:carpet>, null], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
-recipes.removeShaped(<mocreatures:furboots>, [[<mocreatures:fur>, <mocreatures:fur>], [<mocreatures:fur>, <mocreatures:fur>]]);
-recipes.removeShaped(<mocreatures:furhelmet>, [[<mocreatures:fur>, <mocreatures:fur>, <mocreatures:fur>], [<mocreatures:fur>, null, <mocreatures:fur>]]);
-recipes.removeShaped(<mocreatures:furlegs>, [[<mocreatures:fur>, <mocreatures:fur>, <mocreatures:fur>], [<mocreatures:fur>, null, <mocreatures:fur>], [<mocreatures:fur>, null, <mocreatures:fur>]]);
-recipes.removeShaped(<mocreatures:furchest>, [[<mocreatures:fur>, null, <mocreatures:fur>], [<mocreatures:fur>, <mocreatures:fur>, <mocreatures:fur>], [<mocreatures:fur>, <mocreatures:fur>, <mocreatures:fur>]]);
 recipes.removeShaped(<minecraft:wool>, [[<ore:string>, <ore:string>], [<ore:string>, <ore:string>]]);
 recipes.removeShaped(<survivalist:plant_fibres> * 8, [[<ore:treeLeaves>, <ore:treeLeaves>], [<minecraft:leaves>, <minecraft:leaves>]]);
 recipes.removeShaped(<toughasnails:campfire>, [[null, <ore:logWood>, null], [<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:cobblestone>, <minecraft:cobblestone>, <ore:cobblestone>]]);
@@ -37,8 +33,7 @@ recipes.removeShaped(<toughasnails:campfire>, [[null, <minecraft:log>, null], [<
 //#MARKER ADD SHAPELESS
 recipes.addShapeless(<survivalist:pick>, [<ore:itemFlint>, <ore:itemFlint>, <ore:stickWood>, <ore:cordagePlant>]);
 recipes.addShapeless(<survivalist:hatchet>, [<minecraft:flint>, <primal:plant_cordage>, <minecraft:stick>]);
-recipes.addShapeless(<minecraft:wool>, [<mocreatures:woolball>, <mocreatures:woolball>, <mocreatures:woolball>, <mocreatures:woolball>]);
-recipes.addShapeless(<mocreatures:woolball>, [<ore:string>, <ore:string>, <ore:string>, <ore:string>]);
+recipes.addShapeless(<minecraft:wool>, [<ore:string>, <ore:string>, <ore:string>, <ore:string>]);
 recipes.addShapeless(<survivalist:plant_fibres> * 8, [<ore:plant>, <ore:plant>, <ore:plant>, <ore:plant>]);
 recipes.addShapeless(<survivalist:plant_fibres> * 8, [<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>]);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:itemFlint>, <ore:rock>]);
@@ -49,9 +44,5 @@ recipes.addShaped(<minecraft:carpet> * 5, [[<minecraft:wool>]]);
 recipes.addShaped(<sleepingbag:sleepingbag>, [[<minecraft:carpet>, <minecraft:carpet>, null], [<minecraft:carpet>, <minecraft:carpet>, <minecraft:carpet>]]);
 recipes.addShaped(<primal:flint_shears>, [[null, <minecraft:flint>], [<ore:itemFlint>, null]]);
 recipes.addShaped(<primal:wolf_hood>, [[<ore:cordageGeneral>, <ore:pelt>, <ore:cordageGeneral>], [<primal:wolf_pelt>, <ore:pelt>, <ore:pelt>]]);
-recipes.addShaped(<mocreatures:furboots>, [[<ore:fur>, null, <ore:fur>], [<ore:fur>, null, <ore:fur>]]);
-recipes.addShaped(<mocreatures:furhelmet>, [[<ore:fur>, <ore:fur>, <ore:fur>], [<ore:fur>, null, <ore:fur>]]);
-recipes.addShaped(<mocreatures:furlegs>, [[<ore:fur>, <ore:fur>, <ore:fur>], [<ore:fur>, null, <ore:fur>], [<ore:fur>, null, <ore:fur>]]);
-recipes.addShaped(<mocreatures:furchest>, [[<ore:fur>, null, <ore:fur>], [<ore:fur>, <ore:fur>, <ore:fur>], [<ore:fur>, <ore:fur>, <ore:fur>]]);
 recipes.addShaped(<toughasnails:campfire>, [[null, <ore:logWood>, null], [<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:rock>, <ore:rock>, <ore:rock>]]);
 

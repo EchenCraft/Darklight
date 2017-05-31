@@ -54,21 +54,21 @@
     },
     {
       "Entity Class": "com.animania.entities.cows.EntityCowFriesian",
-      "Weight": 15,
+      "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.animania.entities.chickens.EntityHenLeghorn",
       "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.animania.entities.pigs.EntitySowYorkshire",
-      "Weight": 15,
+      "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBird",
@@ -515,8 +515,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "MEDITERANEAN": 7,
-    "DRY_TEMPERATE": 10
+    "DRY_TEMPERATE": 10,
+    "MEDITERANEAN": 7
   },
   "BOP Climate Weights": {
     "DRY_TEMPERATE": [

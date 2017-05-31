@@ -36,21 +36,21 @@
     },
     {
       "Entity Class": "com.animania.entities.cows.EntityCowHereford",
-      "Weight": 15,
+      "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.animania.entities.chickens.EntityHenPlymouthRock",
       "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.animania.entities.pigs.EntitySowLargeWhite",
-      "Weight": 15,
+      "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.girafi.waddles.entity.EntityAdeliePenguin",

@@ -60,39 +60,39 @@
     },
     {
       "Entity Class": "com.animania.entities.cows.EntityCowFriesian",
-      "Weight": 15,
+      "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.animania.entities.cows.EntityCowHereford",
-      "Weight": 15,
+      "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.animania.entities.chickens.EntityHenPlymouthRock",
       "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.animania.entities.chickens.EntityHenLeghorn",
       "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.animania.entities.pigs.EntitySowYorkshire",
-      "Weight": 15,
+      "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.animania.entities.pigs.EntitySowLargeWhite",
-      "Weight": 15,
+      "Weight": 22,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
       "Entity Class": "drzhark.mocreatures.entity.passive.MoCEntityBird",
@@ -547,8 +547,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COOL_TEMPERATE": 7,
-    "WET_TEMPERATE": 3
+    "WET_TEMPERATE": 3,
+    "COOL_TEMPERATE": 7
   },
   "BOP Climate Weights": {
     "WET_TEMPERATE": [
