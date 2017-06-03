@@ -11,10 +11,10 @@
       "fortuneChance": 0.0
     }
   ],
-  "minecraft:end_stone:0": [
+  "minecraft:cobblestone:0": [
     {
       "stack": {
-        "name": "exnihiloadscensio:blockEndstoneCrushed",
+        "name": "minecraft:gravel",
         "amount": 1,
         "meta": 0
       },
@@ -35,10 +35,10 @@
       "fortuneChance": 0.0
     }
   ],
-  "minecraft:cobblestone:0": [
+  "minecraft:gravel:0": [
     {
       "stack": {
-        "name": "minecraft:gravel",
+        "name": "minecraft:sand",
         "amount": 1,
         "meta": 0
       },
@@ -47,10 +47,10 @@
       "fortuneChance": 0.0
     }
   ],
-  "minecraft:gravel:0": [
+  "minecraft:end_stone:0": [
     {
       "stack": {
-        "name": "minecraft:sand",
+        "name": "exnihiloadscensio:blockEndstoneCrushed",
         "amount": 1,
         "meta": 0
       },

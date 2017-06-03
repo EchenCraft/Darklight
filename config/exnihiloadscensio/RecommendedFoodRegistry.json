@@ -51,34 +51,8 @@
       "meta": 0
     }
   },
-  "mocreatures:crabcooked:0": {
-    "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:supremepizzaItem:0": {
     "value": 0.32500002,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "biomesoplenty:ricebowl:0": {
-    "value": 0.05,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -129,47 +103,8 @@
       "meta": 0
     }
   },
-  "thebetweenlands:sap_jello:0": {
-    "value": 0.1,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:sludge_jello:0": {
-    "value": 0.1,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:onionhamburgerItem:0": {
     "value": 0.25,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "biomesoplenty:saladshroom:0": {
-    "value": 0.15,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -351,19 +286,6 @@
     }
   },
   "harvestcraft:avocadoItem:0": {
-    "value": 0.025,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "biomesoplenty:berries:0": {
     "value": 0.025,
     "color": {
       "r": 0.49803922,
@@ -571,6 +493,32 @@
       "meta": 0
     }
   },
+  "evilcraft:darkenedApple:0": {
+    "value": 0.0,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "animania:cooked_prime_beef:0": {
+    "value": 0.5,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "primal:lard:0": {
     "value": 0.025,
     "color": {
@@ -662,19 +610,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:snail_flesh_cooked:0": {
-    "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "primal:fish_lava_worm_cured:0": {
     "value": 0.15,
     "color": {
@@ -714,6 +649,19 @@
       "meta": 0
     }
   },
+  "cannibalism:villagerFlesh:0": {
+    "value": 0.1,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "primal:bear_meat_salted:0": {
     "value": 0.1,
     "color": {
@@ -742,6 +690,19 @@
   },
   "harvestcraft:summerradishsaladItem:0": {
     "value": 0.2,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "animalium:rat_meat:0": {
+    "value": 0.05,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -987,6 +948,19 @@
       "meta": 0
     }
   },
+  "cannibalism:villagerFleshCooked:0": {
+    "value": 0.2,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:chocolatebarItem:0": {
     "value": 0.125,
     "color": {
@@ -1052,34 +1026,8 @@
       "meta": 0
     }
   },
-  "thebetweenlands:marshmallow:0": {
-    "value": 0.1,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:scallionItem:0": {
     "value": 0.025,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "biomesoplenty:pear:0": {
-    "value": 0.125,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -1132,19 +1080,6 @@
   },
   "rockhounding_surface:mesquite_liquor:0": {
     "value": 0.1,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "mocreatures:ratburger:0": {
-    "value": 0.2,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -1210,32 +1145,6 @@
   },
   "primal:horse_meat_dried:0": {
     "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "biomesoplenty:turnip:0": {
-    "value": 0.075,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:sap_ball:0": {
-    "value": 0.0,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -1599,19 +1508,6 @@
     }
   },
   "harvestcraft:crabcookedItem:0": {
-    "value": 0.05,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:silt_crab_claw:0": {
     "value": 0.05,
     "color": {
       "r": 0.49803922,
@@ -2144,19 +2040,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:crab_stick:0": {
-    "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "betterwithmods:raw_kebab:0": {
     "value": 0.15,
     "color": {
@@ -2328,19 +2211,6 @@
   },
   "harvestcraft:espressoItem:0": {
     "value": 0.2,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "biomesoplenty:filled_honeycomb:0": {
-    "value": 0.075,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -2612,6 +2482,19 @@
       "meta": 0
     }
   },
+  "duckcraft:ItemRawDuck:0": {
+    "value": 0.05,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:wafflesItem:0": {
     "value": 0.22500001,
     "color": {
@@ -2718,19 +2601,6 @@
   },
   "rockhounding_surface:truffle_pumpkin:0": {
     "value": 0.22500001,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "adinferos:cooked_infernal_chicken:0": {
-    "value": 0.175,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -2937,19 +2807,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:marshmallow_pink:0": {
-    "value": 0.1,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "primal:fish_cod_dried:0": {
     "value": 0.1,
     "color": {
@@ -3028,19 +2885,6 @@
       "meta": 0
     }
   },
-  "adinferos:wither_apple:0": {
-    "value": 0.125,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:raspberryjellysandwichItem:0": {
     "value": 0.25,
     "color": {
@@ -3056,6 +2900,19 @@
   },
   "rockhounding_surface:purplepear_jam:0": {
     "value": 0.2,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "duckcraft:ItemDuckPotPie:0": {
+    "value": 0.15,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -3171,6 +3028,19 @@
       "meta": 0
     }
   },
+  "duckcraft:ItemCookedDuck:0": {
+    "value": 0.15,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:blueberryjellysandwichItem:0": {
     "value": 0.25,
     "color": {
@@ -3251,19 +3121,6 @@
   },
   "animania:cheese_omelette:0": {
     "value": 0.125,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:candy_red:0": {
-    "value": 0.075,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -3496,19 +3353,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:yellow_dotted_fungus:0": {
-    "value": 0.2,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:frosteddonutItem:0": {
     "value": 0.22500001,
     "color": {
@@ -3667,19 +3511,6 @@
   },
   "nuclearcraft:dominos:0": {
     "value": 0.4,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "biomesoplenty:saladfruit:0": {
-    "value": 0.15,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -4224,19 +4055,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:forbidden_fig:0": {
-    "value": 0.5,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:leafyfishsandwichItem:0": {
     "value": 0.22500001,
     "color": {
@@ -4367,19 +4185,6 @@
       "meta": 0
     }
   },
-  "adinferos:purple_mushroom_soup:0": {
-    "value": 0.2,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:bananamilkshakeItem:0": {
     "value": 0.15,
     "color": {
@@ -4395,19 +4200,6 @@
   },
   "primal:wolf_meat_rotten:0": {
     "value": 0.05,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "adinferos:cooked_purple_mushroom:0": {
-    "value": 0.125,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -4614,32 +4406,6 @@
       "meta": 0
     }
   },
-  "mocreatures:crabraw:0": {
-    "value": 0.05,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:black_hat_mushroom_item:0": {
-    "value": 0.075,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "primal:fish_cod_rotten:0": {
     "value": 0.05,
     "color": {
@@ -4796,6 +4562,19 @@
       "meta": 0
     }
   },
+  "animania:cooked_prime_bacon:0": {
+    "value": 0.2,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:mashedpotatoesItem:0": {
     "value": 0.22500001,
     "color": {
@@ -4822,8 +4601,8 @@
       "meta": 0
     }
   },
-  "mocreatures:omelet:0": {
-    "value": 0.1,
+  "duckcraft:ItemDuckBiscuitAndGravy:0": {
+    "value": 0.3,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -4939,6 +4718,19 @@
       "meta": 0
     }
   },
+  "animania:raw_prime_chicken:0": {
+    "value": 0.025,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:gooseberrymilkshakeItem:0": {
     "value": 0.15,
     "color": {
@@ -5019,19 +4811,6 @@
   },
   "harvestcraft:chilipepperItem:0": {
     "value": 0.025,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:bulb_capped_mushroom_item:0": {
-    "value": 0.075,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -5214,6 +4993,32 @@
   },
   "harvestcraft:blueberrymuffinItem:0": {
     "value": 0.2,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "cannibalism:witchFlesh:0": {
+    "value": 0.1,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "animania:cooked_prime_pork:0": {
+    "value": 0.4,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -5511,19 +5316,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:gerts_donut:0": {
-    "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "primal:fish_clown_cured:0": {
     "value": 0.1,
     "color": {
@@ -5630,19 +5422,6 @@
   },
   "harvestcraft:pearItem:0": {
     "value": 0.025,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:angler_meat_raw:0": {
-    "value": 0.1,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -6005,19 +5784,6 @@
       "meta": 0
     }
   },
-  "mocreatures:turtlesoup:0": {
-    "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:fishandchipsItem:0": {
     "value": 0.22500001,
     "color": {
@@ -6202,19 +5968,6 @@
   },
   "harvestcraft:mixedsaladItem:0": {
     "value": 0.25,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:fried_swamp_kelp:0": {
-    "value": 0.125,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -6499,19 +6252,6 @@
       "meta": 0
     }
   },
-  "mocreatures:turtleraw:0": {
-    "value": 0.05,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:kiwiItem:0": {
     "value": 0.025,
     "color": {
@@ -6590,6 +6330,19 @@
       "meta": 0
     }
   },
+  "animalium:bear_meat:0": {
+    "value": 0.075,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:anchovyrawItem:0": {
     "value": 0.05,
     "color": {
@@ -6629,6 +6382,19 @@
       "meta": 0
     }
   },
+  "evilcraft:werewolfFlesh:0": {
+    "value": -0.125,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:hotchocolateItem:0": {
     "value": 0.1,
     "color": {
@@ -6657,6 +6423,19 @@
   },
   "primal:salo:0": {
     "value": 0.1,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "evilcraft:werewolfFlesh:1": {
+    "value": -0.125,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -6876,19 +6655,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:kraken_tentacle:0": {
-    "value": 0.2,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:coconutItem:0": {
     "value": 0.025,
     "color": {
@@ -6942,6 +6708,19 @@
     }
   },
   "harvestcraft:beetItem:0": {
+    "value": 0.025,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "animania:raw_prime_bacon:0": {
     "value": 0.025,
     "color": {
       "r": 0.49803922,
@@ -7045,19 +6824,6 @@
       "meta": 0
     }
   },
-  "adinferos:infernal_bread:0": {
-    "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "animania:cooked_longhorn_steak:0": {
     "value": 0.125,
     "color": {
@@ -7097,34 +6863,8 @@
       "meta": 0
     }
   },
-  "thebetweenlands:angler_meat_cooked:0": {
-    "value": 0.2,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "animania:cooked_duroc_roast:0": {
     "value": 0.3,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:mince_pie:0": {
-    "value": 0.1,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -7448,6 +7188,19 @@
       "meta": 0
     }
   },
+  "animania:raw_frog_legs:0": {
+    "value": 0.025,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:veggiestirfryItem:0": {
     "value": 0.3,
     "color": {
@@ -7502,19 +7255,6 @@
   },
   "harvestcraft:chilipoppersItem:0": {
     "value": 0.175,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "mocreatures:ratcooked:0": {
-    "value": 0.1,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -7825,6 +7565,32 @@
       "meta": 0
     }
   },
+  "animalium:rat_meat_cooked:0": {
+    "value": 0.1,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "animania:cooked_frog_legs:0": {
+    "value": 0.075,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:papayajuiceItem:0": {
     "value": 0.125,
     "color": {
@@ -7955,34 +7721,8 @@
       "meta": 0
     }
   },
-  "thebetweenlands:frog_legs_raw:0": {
-    "value": 0.075,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:chickennoodlesoupItem:0": {
     "value": 0.22500001,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:chiromaw_wing:0": {
-    "value": 0.0,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -8384,19 +8124,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:frog_legs_cooked:0": {
-    "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:applejellysandwichItem:0": {
     "value": 0.25,
     "color": {
@@ -8411,19 +8138,6 @@
     }
   },
   "harvestcraft:stuffedeggplantItem:0": {
-    "value": 0.25,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:nettle_soup:0": {
     "value": 0.25,
     "color": {
       "r": 0.49803922,
@@ -8748,19 +8462,6 @@
       "meta": 0
     }
   },
-  "biomesoplenty:saladveggie:0": {
-    "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:pistachiobutterItem:0": {
     "value": 0.125,
     "color": {
@@ -8867,6 +8568,19 @@
   },
   "harvestcraft:dimsumItem:0": {
     "value": 0.3,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "bloodarsenal:ItemBloodOrange:0": {
+    "value": 0.1,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -9112,19 +8826,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:rotten_food:0": {
-    "value": -0.025,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:apricotjellysandwichItem:0": {
     "value": 0.25,
     "color": {
@@ -9216,8 +8917,8 @@
       "meta": 0
     }
   },
-  "harvestcraft:vindalooItem:0": {
-    "value": 0.25,
+  "duckcraft:ItemDuckClubSandwich:0": {
+    "value": 0.4,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -9229,8 +8930,8 @@
       "meta": 0
     }
   },
-  "thebetweenlands:candy_blue:0": {
-    "value": 0.075,
+  "harvestcraft:vindalooItem:0": {
+    "value": 0.25,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -9294,6 +8995,19 @@
       "meta": 0
     }
   },
+  "cannibalism:playerFleshCooked:0": {
+    "value": 0.2,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "actuallyadditions:itemJam:0": {
     "value": 0.15,
     "color": {
@@ -9320,8 +9034,8 @@
       "meta": 0
     }
   },
-  "biomesoplenty:peach:0": {
-    "value": 0.125,
+  "cannibalism:playerFlesh:0": {
+    "value": 0.1,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -9697,8 +9411,8 @@
       "meta": 0
     }
   },
-  "adinferos:infernal_chicken:0": {
-    "value": 0.075,
+  "animania:raw_prime_beef:0": {
+    "value": 0.025,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -9712,19 +9426,6 @@
   },
   "harvestcraft:honeybreadItem:0": {
     "value": 0.175,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "mocreatures:ratraw:0": {
-    "value": 0.05,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -9931,6 +9632,32 @@
       "meta": 0
     }
   },
+  "animania:cooked_prime_chicken:0": {
+    "value": 0.3,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "duckcraft:ItemDuckSoup:0": {
+    "value": 0.275,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:baklavaItem:0": {
     "value": 0.25,
     "color": {
@@ -10100,19 +9827,6 @@
       "meta": 0
     }
   },
-  "mocreatures:turkeycooked:0": {
-    "value": 0.2,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:cookedtofeakItem:0": {
     "value": 0.2,
     "color": {
@@ -10191,8 +9905,34 @@
       "meta": 0
     }
   },
+  "vampirism:weakHumanHeart:0": {
+    "value": 0.0,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "rockhounding_surface:sotol:0": {
     "value": 0.1,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "duckcraft:ItemWarmDuckSalad:0": {
+    "value": 0.35,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -10232,19 +9972,6 @@
   },
   "arsmagica2:mana_martini:0": {
     "value": 0.0,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:reed_donut:0": {
-    "value": 0.15,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -10375,19 +10102,6 @@
   },
   "harvestcraft:powdereddonutItem:0": {
     "value": 0.175,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:jam_donut:0": {
-    "value": 0.25,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -10607,6 +10321,19 @@
       "meta": 0
     }
   },
+  "duckcraft:ItemDuckTaco:0": {
+    "value": 0.4,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:pecanItem:0": {
     "value": 0.025,
     "color": {
@@ -10646,8 +10373,8 @@
       "meta": 0
     }
   },
-  "thebetweenlands:wight_heart:0": {
-    "value": 0.0,
+  "betterwithmods:cooked_omelet:0": {
+    "value": 0.1,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -10659,8 +10386,8 @@
       "meta": 0
     }
   },
-  "betterwithmods:cooked_omelet:0": {
-    "value": 0.1,
+  "animania:raw_prime_steak:0": {
+    "value": 0.025,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -10817,6 +10544,19 @@
   },
   "tconstruct:edible:12": {
     "value": 0.15,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "animania:raw_prime_pork:0": {
+    "value": 0.025,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -11153,19 +10893,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:middle_fruit:0": {
-    "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "natura:edibles:11": {
     "value": 0.025,
     "color": {
@@ -11257,8 +10984,8 @@
       "meta": 0
     }
   },
-  "mocreatures:sugarlump:0": {
-    "value": 0.075,
+  "duckcraft:ItemRoastedDuckLegAndPotato:0": {
+    "value": 0.175,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -11374,21 +11101,8 @@
       "meta": 0
     }
   },
-  "thebetweenlands:flat_head_mushroom_item:0": {
-    "value": 0.075,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:kraken_calamari:0": {
-    "value": 0.35,
+  "vampirism:humanHeart:0": {
+    "value": 0.0,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -11428,32 +11142,6 @@
   },
   "primal:horse_meat_rotten:0": {
     "value": 0.075,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "mocreatures:ostrichcooked:0": {
-    "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "biomesoplenty:shroompowder:0": {
-    "value": 0.025,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -11985,6 +11673,19 @@
       "meta": 0
     }
   },
+  "duckcraft:ItemDuckBreastWithBerrySauce:0": {
+    "value": 0.2,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:beefwellingtonItem:0": {
     "value": 0.45000002,
     "color": {
@@ -12180,19 +11881,6 @@
       "meta": 0
     }
   },
-  "mocreatures:turkeyraw:0": {
-    "value": 0.075,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:chickengumboItem:0": {
     "value": 0.4,
     "color": {
@@ -12375,6 +12063,19 @@
       "meta": 0
     }
   },
+  "animalium:bear_meat_cooked:0": {
+    "value": 0.2,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "harvestcraft:watermelonjellyItem:0": {
     "value": 0.125,
     "color": {
@@ -12440,19 +12141,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:weeping_blue_petal:0": {
-    "value": 0.1,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:cookedtofenisonItem:0": {
     "value": 0.2,
     "color": {
@@ -12468,19 +12156,6 @@
   },
   "harvestcraft:pralinesItem:0": {
     "value": 0.15,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "adinferos:cooked_flesh:0": {
-    "value": 0.1,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -12882,19 +12557,6 @@
       "meta": 0
     }
   },
-  "mocreatures:ostrichraw:0": {
-    "value": 0.05,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "animania:raw_old_spot_bacon:0": {
     "value": 0.025,
     "color": {
@@ -13116,19 +12778,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:candy_yellow:0": {
-    "value": 0.075,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:fruitsaladItem:0": {
     "value": 0.15,
     "color": {
@@ -13207,19 +12856,6 @@
       "meta": 0
     }
   },
-  "biomesoplenty:persimmon:0": {
-    "value": 0.125,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:heartybreakfastItem:0": {
     "value": 0.45000002,
     "color": {
@@ -13261,6 +12897,19 @@
   },
   "harvestcraft:chocolateicecreamItem:0": {
     "value": 0.22500001,
+    "color": {
+      "r": 0.49803922,
+      "g": 0.24705882,
+      "b": 0.05882353,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
+  "animania:cooked_prime_steak:0": {
+    "value": 0.25,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -13350,19 +12999,6 @@
       "meta": 0
     }
   },
-  "thebetweenlands:middle_fruit_jello:0": {
-    "value": 0.25,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
   "harvestcraft:steamedpeasItem:0": {
     "value": 0.15,
     "color": {
@@ -13417,19 +13053,6 @@
   },
   "primal:corn_bread:0": {
     "value": 0.125,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "thebetweenlands:snail_flesh_raw:0": {
-    "value": 0.075,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,
@@ -13599,19 +13222,6 @@
   },
   "harvestcraft:meatpieItem:0": {
     "value": 0.35,
-    "color": {
-      "r": 0.49803922,
-      "g": 0.24705882,
-      "b": 0.05882353,
-      "a": 1.0
-    },
-    "compostBlock": {
-      "name": "minecraft:dirt",
-      "meta": 0
-    }
-  },
-  "biomesoplenty:ambrosia:0": {
-    "value": 0.15,
     "color": {
       "r": 0.49803922,
       "g": 0.24705882,

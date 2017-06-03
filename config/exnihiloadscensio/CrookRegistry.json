@@ -1,5 +1,5 @@
 {
-  "minecraft:leaves": [
+  "minecraft:leaves2": [
     {
       "stack": {
         "name": "exnihiloadscensio:itemMaterial",
@@ -10,7 +10,7 @@
       "fortuneChance": 0.0
     }
   ],
-  "minecraft:leaves2": [
+  "minecraft:leaves": [
     {
       "stack": {
         "name": "exnihiloadscensio:itemMaterial",
