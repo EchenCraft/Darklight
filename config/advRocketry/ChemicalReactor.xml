@@ -1,0 +1,4267 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="true">
+	<Recipe timeRequired="40" power ="20">
+		<input>
+			<itemStack>advancedrocketry:carbonScrubberCartridge 1 172800</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:carbonScrubberCartridge</itemStack>
+			<itemStack>minecraft:coal 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>minecraft:bone</itemStack>
+			<fluidStack>nitrogen 10</fluidStack>
+		</input>
+		<output>
+			<itemStack>minecraft:dye 5 15</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<fluidStack>oxygen 10</fluidStack>
+			<fluidStack>hydrogen 10</fluidStack>
+		</input>
+		<output>
+			<fluidStack>rocketfuel 20</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>nuclearcraft:legs_tough</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>nuclearcraft:legs_tough</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:cadmium_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:cadmium_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>natura:imp_armor_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>natura:imp_armor_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ceramics:clay_chestplate_raw</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>ceramics:clay_chestplate_raw</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:magnesium_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:magnesium_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_green_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_green_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:ObsidianChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>mekanismtools:ObsidianChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:galvanizedsteel_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:galvanizedsteel_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>biomesoplenty:mud_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>biomesoplenty:mud_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_gray_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_gray_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>draconicevolution:draconic_helm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>draconicevolution:draconic_helm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_magenta_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_magenta_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:ObsidianBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:ObsidianBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemBootsObsidian</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemBootsObsidian</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_silver_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_silver_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_pink_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_pink_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>harvestcraft:hardenedleatherbootsitem</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>harvestcraft:hardenedleatherbootsitem</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_purple_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_purple_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_white_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_white_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:starsteel_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:starsteel_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>bloodmagic:ItemLivingArmourHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>bloodmagic:ItemLivingArmourHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>betterwithmods:ender_spectacles</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>betterwithmods:ender_spectacles</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_black_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_black_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_blue_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_blue_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ceramics:clay_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ceramics:clay_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemChestObsidian</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemChestObsidian</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:titanium_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:titanium_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:magnesium_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:magnesium_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:wooden_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>tp:wooden_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:bone_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:bone_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:SteelChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>mekanismtools:SteelChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:bone_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>tp:bone_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemHelmCrystalLightBlue</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemHelmCrystalLightBlue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:terrasteelChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>botania:terrasteelChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:nickel_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:nickel_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemBootsCrystalRed</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemBootsCrystalRed</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:manaweaveBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:manaweaveBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_red_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_red_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>immersiveengineering:earmuffs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:earmuffs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_red_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_red_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:LapisLazuliHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:LapisLazuliHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_pink_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_pink_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:electrum_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:electrum_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:iron_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:iron_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:flint_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>tp:flint_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:valonite_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:valonite_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:manasteelChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>botania:manasteelChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:GlowstoneHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:GlowstoneHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_gray_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_gray_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:titanium_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:titanium_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:galvanizedsteel_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:galvanizedsteel_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemBootsQuartz</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemBootsQuartz</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:tantalum_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:tantalum_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_magenta_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_magenta_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ceramics:clay_boots_raw</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ceramics:clay_boots_raw</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:chest_battlemage</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>arsmagica2:chest_battlemage</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:aquarium_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:aquarium_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_silver_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_silver_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>primal:wolf_body</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>primal:wolf_body</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:manasteelHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:manasteelHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>nuclearcraft:chest_tough</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>nuclearcraft:chest_tough</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:chromium_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:chromium_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>nuclearcraft:helm_boron</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>nuclearcraft:helm_boron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:leather_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:leather_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tconstruct:piggybackpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>tconstruct:piggybackpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_blue_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_blue_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:osmium_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:osmium_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_light_blue_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_light_blue_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>survivalist:tanned_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>survivalist:tanned_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>immersiveengineering:faradaySuit_legs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:faradaySuit_legs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_blue_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_blue_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_cyan_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_cyan_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:aquarium_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:aquarium_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:electrum_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:electrum_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:bronze_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:bronze_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:silver_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:silver_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:manganese_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:manganese_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:iron_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:iron_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:aquarium_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:aquarium_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>biomesoplenty:flippers</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>biomesoplenty:flippers</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:invar_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:invar_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:osmium_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:osmium_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>bloodmagic:ItemPackSacrifice</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>bloodmagic:ItemPackSacrifice</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanism:ArmoredJetpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>mekanism:ArmoredJetpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_cyan_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_cyan_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>natura:imp_armor_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>natura:imp_armor_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_light_blue_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_light_blue_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:nichrome_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:nichrome_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>overlord:crown</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>overlord:crown</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemHelmCrystalWhite</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemHelmCrystalWhite</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanism:GasMask</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanism:GasMask</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:iridium_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:iridium_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>primal:wolf_legs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>primal:wolf_legs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>animalium:dog_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>animalium:dog_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:brass_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:brass_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:silver_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:silver_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:zirconium_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:zirconium_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>biomesoplenty:dull_flower_band</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>biomesoplenty:dull_flower_band</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_pink_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_pink_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_lime_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_lime_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:terrasteelBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:terrasteelBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:rutile_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:rutile_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:titanium_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:titanium_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemPantsCrystalBlack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemPantsCrystalBlack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_white_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_white_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:plutonium_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:plutonium_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>harvestcraft:hardenedleatherleggingsitem</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>harvestcraft:hardenedleatherleggingsitem</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemChestQuartz</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemChestQuartz</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:manasteelBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:manasteelBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>xreliquary:witch_hat</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>xreliquary:witch_hat</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:wooden_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:wooden_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:OsmiumHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:OsmiumHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemChestCrystalBlue</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemChestCrystalBlue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemHelmCrystalGreen</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemHelmCrystalGreen</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>draconicevolution:wyvern_chest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>draconicevolution:wyvern_chest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>toughasnails:wool_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>toughasnails:wool_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:platinum_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:platinum_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemHelmCrystalBlue</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemHelmCrystalBlue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>forestry:apiaristChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>forestry:apiaristChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemPantsObsidian</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemPantsObsidian</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:adamantine_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:adamantine_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>primal:wolf_hood</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>primal:wolf_hood</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:aluminum_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:aluminum_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemBootsCrystalWhite</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemBootsCrystalWhite</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>enderio:darkSteel_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>enderio:darkSteel_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:manganese_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:manganese_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:mithril_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:mithril_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>survivalist:tanned_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>survivalist:tanned_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:bronze_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:bronze_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:golden_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:golden_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:SteelBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:SteelBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:lead_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:lead_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:lead_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:lead_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:bone_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:bone_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:electrum_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:electrum_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ceramics:clay_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>ceramics:clay_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:ender_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>arsmagica2:ender_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>bloodmagic:ItemLivingArmourChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>bloodmagic:ItemLivingArmourChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:uranium_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:uranium_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemPantsCrystalLightBlue</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemPantsCrystalLightBlue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:silver_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:silver_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:golden_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:golden_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>natura:imp_armor_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>natura:imp_armor_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>toughasnails:jelled_slime_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>toughasnails:jelled_slime_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:cadmium_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:cadmium_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:mithril_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:mithril_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemBootsCrystalGreen</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemBootsCrystalGreen</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:brass_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:brass_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanism:ScubaTank</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>mekanism:ScubaTank</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>nuclearcraft:helm_tough</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>nuclearcraft:helm_tough</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:stainlesssteel_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:stainlesssteel_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:GlowstoneChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>mekanismtools:GlowstoneChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:iridium_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:iridium_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>biomesoplenty:mud_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>biomesoplenty:mud_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:steel_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:steel_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:earth_armor</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>arsmagica2:earth_armor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:lead_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:lead_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_cyan_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_cyan_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_silver_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_silver_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_pink_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_pink_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:chest_mage</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>arsmagica2:chest_mage</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:nickel_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:nickel_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:cupronickel_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:cupronickel_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:aquarium_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:aquarium_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>biomesoplenty:wading_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>biomesoplenty:wading_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:steel_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:steel_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:ObsidianHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:ObsidianHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>quark:pirate_hat</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>quark:pirate_hat</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:bone_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:bone_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>bloodmagic:ItemSentientArmourHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>bloodmagic:ItemSentientArmourHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:iridium_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:iridium_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_orange_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_orange_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:flint_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:flint_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>overlord:sans_mask</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>overlord:sans_mask</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:silver_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:silver_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>draconicevolution:draconic_chest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>draconicevolution:draconic_chest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemPantsCrystalRed</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemPantsCrystalRed</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>draconicevolution:wyvern_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>draconicevolution:wyvern_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:leather_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:leather_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>forestry:apiaristBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>forestry:apiaristBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:golden_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:golden_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:coldiron_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:coldiron_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:helmet_mage</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>arsmagica2:helmet_mage</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_white_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_white_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:lead_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:lead_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:manganese_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:manganese_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:chainmail_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:chainmail_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:diamond_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:diamond_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>draconicevolution:draconic_legs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>draconicevolution:draconic_legs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:tin_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:tin_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_black_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_black_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:zirconium_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:zirconium_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>forestry:naturalistHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>forestry:naturalistHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:chainmail_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:chainmail_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:elementiumHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:elementiumHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:tungsten_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:tungsten_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:manaweaveHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:manaweaveHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:elementiumHelmReveal</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:elementiumHelmReveal</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:stone_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:stone_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>bloodmagic:ItemLivingArmourBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>bloodmagic:ItemLivingArmourBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:galvanizedsteel_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:galvanizedsteel_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>betterwithmods:steel_chest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>betterwithmods:steel_chest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemChestCrystalGreen</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemChestCrystalGreen</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:lurker_skin_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:lurker_skin_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:bronze_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:bronze_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>bloodmagic:ItemLivingArmourLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>bloodmagic:ItemLivingArmourLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>survivalist:tanned_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>survivalist:tanned_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:starsteel_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:starsteel_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:cadmium_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:cadmium_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:stainlesssteel_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:stainlesssteel_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>primal:dark_goggles</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>primal:dark_goggles</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:hat_witch</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:hat_witch</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_magenta_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_magenta_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:plutonium_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:plutonium_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:wooden_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:wooden_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemHelmObsidian</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemHelmObsidian</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:explorers_hat</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:explorers_hat</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_cyan_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_cyan_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:valonite_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:valonite_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_green_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_green_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:manasteelLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:manasteelLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:valonite_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:valonite_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>draconicevolution:draconic_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>draconicevolution:draconic_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:GlowstoneBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:GlowstoneBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_purple_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_purple_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemHelmQuartz</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemHelmQuartz</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_black_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_black_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_brown_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_brown_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:bronze_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:bronze_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:boots_mage</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>arsmagica2:boots_mage</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:LapisLazuliBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:LapisLazuliBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:adamantine_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:adamantine_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:plutonium_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:plutonium_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>biomesoplenty:exotic_flower_band</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>biomesoplenty:exotic_flower_band</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_silver_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_silver_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>bloodmagic:ItemPackSelfSacrifice</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>bloodmagic:ItemPackSelfSacrifice</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>forestry:apiaristLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>forestry:apiaristLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:starsteel_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:starsteel_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>sleepingbag:sleepingbag</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>sleepingbag:sleepingbag</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:syrmorite_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:syrmorite_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:uranium_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:uranium_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:nichrome_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:nichrome_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:tungsten_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:tungsten_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:OsmiumChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>mekanismtools:OsmiumChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:stone_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:stone_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:BronzeHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:BronzeHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_light_blue_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_light_blue_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:osmium_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:osmium_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>toughasnails:wool_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>toughasnails:wool_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:cupronickel_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:cupronickel_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ceramics:clay_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ceramics:clay_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ceramics:clay_leggings_raw</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ceramics:clay_leggings_raw</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:stone_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>tp:stone_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemChestCrystalWhite</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemChestCrystalWhite</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>draconicevolution:wyvern_helm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>draconicevolution:wyvern_helm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>betterwithmods:steel_pants</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>betterwithmods:steel_pants</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>enderio:darkSteel_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>enderio:darkSteel_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:chromium_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:chromium_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:aluminum_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:aluminum_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:water_orbs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>arsmagica2:water_orbs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:syrmorite_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:syrmorite_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:bone_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:bone_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:terrasteelHelm</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:terrasteelHelm</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:uranium_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:uranium_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:platinum_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:platinum_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:tungsten_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:tungsten_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ceramics:clay_helmet_raw</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ceramics:clay_helmet_raw</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>betterwithmods:steel_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>betterwithmods:steel_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>toughasnails:wool_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>toughasnails:wool_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>quark:witch_hat</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>quark:witch_hat</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemHelmCrystalBlack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemHelmCrystalBlack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:chromium_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:chromium_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_orange_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_orange_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:aluminumbrass_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:aluminumbrass_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:stone_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:stone_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:tungsten_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:tungsten_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:tophat</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:tophat</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:cupronickel_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:cupronickel_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:legs_mage</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>arsmagica2:legs_mage</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:SteelHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:SteelHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:tin_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:tin_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemChestCrystalLightBlue</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemChestCrystalLightBlue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>immersiveengineering:faradaySuit_head</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:faradaySuit_head</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_gray_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_gray_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:tantalum_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:tantalum_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:syrmorite_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:syrmorite_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:copper_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:copper_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanism:FreeRunners</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanism:FreeRunners</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>bloodmagic:ItemSentientArmourChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>bloodmagic:ItemSentientArmourChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>biomesoplenty:plain_flower_band</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>biomesoplenty:plain_flower_band</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:stainlesssteel_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:stainlesssteel_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:chromium_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:chromium_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>toughasnails:jelled_slime_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>toughasnails:jelled_slime_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:coldiron_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:coldiron_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:rutile_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:rutile_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_black_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_black_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:brass_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:brass_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>biomesoplenty:mud_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>biomesoplenty:mud_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:rubber_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:rubber_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:iron_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:iron_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemBootsCrystalBlack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemBootsCrystalBlack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemChestCrystalRed</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemChestCrystalRed</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:magnesium_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:magnesium_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_lime_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_lime_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemBootsCrystalBlue</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemBootsCrystalBlue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:copper_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:copper_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:tin_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:tin_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:bone_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:bone_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:magnesium_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:magnesium_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemPantsCrystalBlue</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemPantsCrystalBlue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:invar_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:invar_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:skull_mask</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:skull_mask</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:electrum_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:electrum_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:invar_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:invar_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:boots_battlemage</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>arsmagica2:boots_battlemage</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:copper_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:copper_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:syrmorite_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:syrmorite_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:invar_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:invar_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:nickel_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:nickel_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:adamantine_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:adamantine_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:magitech_goggles</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>arsmagica2:magitech_goggles</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:diamond_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:diamond_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:flint_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:flint_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanism:Jetpack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>mekanism:Jetpack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:lurker_skin_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:lurker_skin_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:leather_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:leather_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_orange_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_orange_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:BronzeBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:BronzeBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_red_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_red_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:golden_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:golden_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:aluminumbrass_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:aluminumbrass_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:flint_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:flint_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:brass_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:brass_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:chainmail_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:chainmail_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_yellow_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_yellow_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>nuclearcraft:chest_boron</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>nuclearcraft:chest_boron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_gray_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_gray_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>toughasnails:jelled_slime_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>toughasnails:jelled_slime_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_brown_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_brown_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>bloodmagic:ItemSentientArmourBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>bloodmagic:ItemSentientArmourBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:mithril_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:mithril_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_red_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_red_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>ceramics:clay_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>ceramics:clay_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>bloodmagic:ItemSentientArmourLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>bloodmagic:ItemSentientArmourLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:fire_ears</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>arsmagica2:fire_ears</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:manganese_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:manganese_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_orange_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_orange_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:LapisLazuliChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>mekanismtools:LapisLazuliChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:uranium_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:uranium_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:rutile_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:rutile_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:nichrome_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:nichrome_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_yellow_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_yellow_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:helmet_battlemage</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>arsmagica2:helmet_battlemage</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_blue_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_blue_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>nuclearcraft:boots_boron</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>nuclearcraft:boots_boron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:platinum_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>basemetals:platinum_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:LapisLazuliLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:LapisLazuliLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:steel_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:steel_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:elementiumLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:elementiumLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:galvanizedsteel_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:galvanizedsteel_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:platinum_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:platinum_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:manaweaveLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:manaweaveLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>nuclearcraft:legs_boron</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>nuclearcraft:legs_boron</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:aluminum_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:aluminum_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemPantsCrystalWhite</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemPantsCrystalWhite</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:copper_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:copper_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:elementiumChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>botania:elementiumChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:mithril_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:mithril_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:hat_wizard</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:hat_wizard</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:titanium_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:titanium_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>harvestcraft:hardenedleatherhelmitem</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>harvestcraft:hardenedleatherhelmitem</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_yellow_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_yellow_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:tantalum_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:tantalum_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:diamond_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:diamond_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:starsteel_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:starsteel_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:zirconium_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:zirconium_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>toughasnails:jelled_slime_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>toughasnails:jelled_slime_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:lurker_skin_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:lurker_skin_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>survivalist:tanned_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>survivalist:tanned_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:iridium_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:iridium_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:stainlesssteel_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:stainlesssteel_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:aluminumbrass_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:aluminumbrass_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_green_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_green_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemPantsQuartz</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemPantsQuartz</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_magenta_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_magenta_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>immersiveengineering:faradaySuit_chest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:faradaySuit_chest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemPantsCrystalGreen</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemPantsCrystalGreen</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tconstruct:slime_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tconstruct:slime_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemPantsEmerald</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemPantsEmerald</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:rutile_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:rutile_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:ObsidianLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:ObsidianLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:GlowstoneLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:GlowstoneLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:zirconium_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:zirconium_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>toughasnails:wool_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>toughasnails:wool_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_green_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_green_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:tin_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:tin_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:valonite_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:valonite_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:osmium_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:osmium_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemHelmEmerald</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemHelmEmerald</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:manasteelHelmReveal</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:manasteelHelmReveal</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_lime_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_lime_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:OsmiumLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:OsmiumLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:diamond_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:diamond_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:iron_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:iron_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:terrasteelHelmReveal</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:terrasteelHelmReveal</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_brown_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_brown_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_yellow_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_yellow_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>immersiveengineering:faradaySuit_feet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:faradaySuit_feet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:chainmail_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:chainmail_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>biomesoplenty:mud_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>biomesoplenty:mud_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>harvestcraft:hardenedleatherchestitem</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>harvestcraft:hardenedleatherchestitem</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:coldiron_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:coldiron_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:manaweaveChest</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>botania:manaweaveChest</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:steel_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:steel_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:nickel_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:nickel_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>minecraft:leather_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:leather_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemChestEmerald</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemChestEmerald</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>draconicevolution:wyvern_legs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>draconicevolution:wyvern_legs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>enderio:darkSteel_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>enderio:darkSteel_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:wooden_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:wooden_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:bone_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:bone_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_purple_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_purple_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:adamantine_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:adamantine_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:elementiumBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:elementiumBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>biomesoplenty:lush_flower_band</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>biomesoplenty:lush_flower_band</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>natura:imp_armor_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>natura:imp_armor_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemHelmCrystalRed</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemHelmCrystalRed</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>botania:terrasteelLegs</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>botania:terrasteelLegs</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:SteelLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:SteelLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_white_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_white_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemChestCrystalBlack</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemChestCrystalBlack</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemBootsEmerald</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemBootsEmerald</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>thebetweenlands:lurker_skin_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>thebetweenlands:lurker_skin_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_light_blue_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_light_blue_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:cupronickel_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:cupronickel_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:OsmiumBoots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:OsmiumBoots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>tp:bone_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>tp:bone_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:cadmium_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:cadmium_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:tantalum_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:tantalum_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:BronzeChestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>mekanismtools:BronzeChestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:plutonium_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:plutonium_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>mekanismtools:BronzeLeggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>mekanismtools:BronzeLeggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_purple_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_purple_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_brown_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_brown_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>enderio:darkSteel_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>enderio:darkSteel_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:aluminum_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:aluminum_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:aluminumbrass_chestplate</itemStack>
+			<oreDict>gemDiamond</oreDict>
+			<itemStack>advancedrocketry:pressureTank 1 3</itemStack>
+		</input>
+		<output>
+			<itemStack>modernmetals:aluminumbrass_chestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>wonderfulwands:robes_lime_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>wonderfulwands:robes_lime_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>arsmagica2:legs_battlemage</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>arsmagica2:legs_battlemage</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>actuallyadditions:itemBootsCrystalLightBlue</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>actuallyadditions:itemBootsCrystalLightBlue</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>nuclearcraft:boots_tough</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>nuclearcraft:boots_tough</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>modernmetals:nichrome_leggings</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>modernmetals:nichrome_leggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>betterwithmods:steel_helmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>betterwithmods:steel_helmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>basemetals:coldiron_boots</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>basemetals:coldiron_boots</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>forestry:apiaristHelmet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>forestry:apiaristHelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="10">
+		<input>
+			<itemStack>primal:wolf_feet</itemStack>
+			<oreDict>gemDiamond</oreDict>
+		</input>
+		<output>
+			<itemStack>primal:wolf_feet</itemStack>
+		</output>
+	</Recipe>
+</Recipes>
