@@ -1,0 +1,82 @@
++--------+------------------+------------------------+-----------------+---------------------------+------------------+
+|     ID | DimensionType ID | Name                   | shouldLoadSpawn | WorldProvider class       | Currently loaded |
++--------+------------------+------------------------+-----------------+---------------------------+------------------+
+|     -1 |               -1 | Nether                 |           false | WorldProviderHell         |             true |
+|     -2 |                3 | space                  |           false | WorldProviderSpace        |             true |
+| -11325 |           -11325 | Deep Dark              |           false | WorldProviderDeepDark     |             true |
+|  -9999 |            -9999 | ExtraUtils2_Quarry_Dim |            true | WorldProviderSpecialDim   |             true |
+|     71 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     70 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     69 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     68 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     67 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     66 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     65 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     64 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     63 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     62 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     61 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     60 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     59 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     58 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     57 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     56 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     55 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     54 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     53 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     52 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     51 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     50 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     49 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     48 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     47 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     46 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     45 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     44 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     43 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     42 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     41 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     40 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     39 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     38 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     37 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     36 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     35 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     34 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     33 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     32 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     31 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     30 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     29 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     28 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     27 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     26 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     25 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     24 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     23 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     22 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     21 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     20 |               20 | Betweenlands           |           false | WorldProviderBetweenlands |            false |
+|     19 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     18 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     17 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     16 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     15 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     14 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     13 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     12 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     11 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|     10 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|      9 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|      8 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|      7 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|      6 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|      5 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|      4 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|      3 |                3 | Skylands               |           false | WorldProviderTX           |             true |
+|      2 |                2 | planet                 |           false | WorldProviderPlanet       |            false |
+|      1 |                1 | The End                |           false | WorldProviderEnd          |             true |
+|      0 |                0 | Overworld              |            true | WorldProviderOverworld    |             true |
++--------+------------------+------------------------+-----------------+---------------------------+------------------+
+|     ID | DimensionType ID | Name                   | shouldLoadSpawn | WorldProvider class       | Currently loaded |
++--------+------------------+------------------------+-----------------+---------------------------+------------------+
